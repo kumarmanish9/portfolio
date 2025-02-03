@@ -3,17 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Your Name - Portfolio</title>
+    <title>Manish | Full Stack Developer</title>
     <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-
-    <!-- Header Section -->
     <header>
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
+            <div class="logo">Manish</div>
+            <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -22,77 +19,67 @@
         </nav>
     </header>
 
-    <!-- Home Section -->
-    <section id="home">
-        <div class="container">
-            <h1>Hi, I'm <span> Manish</span></h1>
-            <p>Welcome to my portfolio website!</p>
-        </div>
+    <section id="hero">
+        <h1 style="color:black">Hi, I'm Manish</h1>
+        <p style="color:black">Java Full Stack Developer</p>
+        <a href="#projects" class="btn">View My Work</a>
     </section>
 
-    <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello! I’m Manish, a passionate Java Full Stack Developer with a strong foundation in both frontend and backend technologies. Currently, I’m pursuing my Master’s in Computer Applications (MCA), and my journey in software development has been focused on leveraging the power of Java for building scalable, high-performance web applications.
-
-            With expertise in Java for backend development, combined with a solid understanding of HTML, CSS, JavaScript, and React for frontend development, I am committed to creating intuitive and efficient user experiences. My projects often involve working with databases such as MySQL and MongoDB, and I’m skilled in using frameworks like Spring Boot and Spring MVC to build secure, robust applications.
-            
-            I am driven by the challenges of solving complex problems and continuously improving my technical skills. Throughout my academic and personal projects, I have gained hands-on experience in RESTful API development, UI/UX design, and working with Version Control Systems like Git.
-            
-            Apart from my technical work, I’m always looking to enhance my skills in cloud computing, DevOps practices, and microservices architecture. I enjoy collaborating with teams, learning new technologies, and staying up to date with the latest trends in software development.
-            
-            When I’m not coding, I love improving my physical fitness through calisthenics, exploring new tech, and taking on challenges that help me grow both as a developer and as an individual.
-            
-            I’m always excited to work on innovative projects, contribute to open-source communities, and connect with like-minded professionals in the tech world.
-            
-            </p>
+        <p>Hello, I’m Manish, an aspiring software developer currently pursuing my MCA. 
+            I’m passionate about software development and always eager to explore new technologies. 
+            With a strong foundation in Java and a growing expertise in MERN stack, 
+            I aim to build innovative solutions that solve real-world problems. I have experience working on various projects, 
+            including Airline Compensation Systems and Portfolio Development, and 
+            I'm committed to continuous learning and self-improvement. 
+            My goal is to leverage my skills to contribute meaningfully to 
+            the IT industry and grow professionally in a dynamic work environment.</p>
     </section>
 
-    <!-- Skills Section -->
     <section id="skills">
         <h2>Skills</h2>
-        <ul>
-            <li>JAVA</li>
-            <li>HTML/CSS</li>
-            <li>JavaScript</li>
-            <li>MY SQL</li>
-            <li>GITHUB</li>
-            <li>MICROSERVICES</li>
-            <li>SPRING-BOOT</li>
-        </ul>
+        <div class="skills-container">
+            <div class="skill">Java</div>
+            <div class="skill">Spring Boot</div>
+            <div class="skill">Hibernate</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">React</div>
+            <div class="skill">SQL</div>
+            <div class="skill">REST APIs</div>
+        </div>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project-cards">
-            <div class="project-card">
-                <h3>Project 1</h3>
-                <p>Brief description of the project.</p>
-                <a href="https://github.com/kumarmanish9" target="_blank">View on GitHub</a>
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <a href="https://github.com/kumarmanish9/CompensationAPI"> project-1</a>
+                <p>Description of the project, the technologies used, and the role you played.</p>
             </div>
-            <div class="project-card">
-                <h3>Project 2</h3>
-                <p>Brief description of the project.</p>
-                <a href="https://github.com/kumarmanish9" target="_blank">View on GitHub</a>
+            <div class="project">
+                <a href="https://github.com/kumarmanish9/portfolio">Project-2</a>
+                <p>Description of another project, highlighting key features and your contributions.</p>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact</h2>
-        <form>
-            <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Your email">
-            <label for="message">Message:</label>
-            <textarea id="message" placeholder="Your message"></textarea>
+        <h2>Contact Me</h2>
+        <!-- Add Formspree action and method here -->
+        <form id="contact-form" action="https://formspree.io/f/xldgnakb" method="POST">
+            <!-- Add 'name' attributes to the form fields -->
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send Message</button>
         </form>
     </section>
+    
 
     <footer>
-        <p>Copyright © 2025 Your Name</p>
+        <p>&copy; 2025 Manish | All Rights Reserved</p>
     </footer>
 
     <script src="portfolio.js"></script>
