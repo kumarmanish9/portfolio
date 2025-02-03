@@ -140,3 +140,21 @@ footer {
     padding: 1rem 0;
     margin-top: 2rem;
 }
+#education {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+}
+
+.education-item {
+    margin: 20px 0;
+}
+
+.education-item h3 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.education-item p {
+    color: #666;
+}
