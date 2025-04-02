@@ -48,15 +48,21 @@ nav {
     text-decoration: none;
     font-size: 1rem;
 }
+.flag-logo {
+    width: 50px;              /* Adjust the width as needed */
+    height: auto;             /* Keeps the aspect ratio */
+    vertical-align: middle;   /* Aligns it nicely with the nav */
+}
 
 #hero {
-    background-image: url('images/coding.jpg');
+    background-image: url('images/coding1.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
     text-align: center;
     padding: 5rem 1rem;
+    height:500px;
 }
 
 
