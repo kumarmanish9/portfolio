@@ -3,6 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+ margin: auto;
+}
+
+.logo {
+ font-size: 1.5rem;
+ font-weight: bold;
+}
+
+.nav-links {
+ list-style: none;
+ display: flex;
+}
+
+.nav-links li {
+ margin: 0 15px;
+}
+
+.nav-links a {
+ color: #fff;
+ text-decoration: none;
+ font-size: 1rem;
+}
+.flag-logo {
+ width: 50px;              /* Adjust the width as needed */
+ height: auto;             /* Keeps the aspect ratio */
+ vertical-align: middle;   /* Aligns it nicely with the nav */
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -21,38 +53,7 @@ header {
     z-index: 1000;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-}
 
-.logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-}
-
-.nav-links li {
-    margin: 0 15px;
-}
-
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1rem;
-}
-.flag-logo {
-    width: 50px;              /* Adjust the width as needed */
-    height: auto;             /* Keeps the aspect ratio */
-    vertical-align: middle;   /* Aligns it nicely with the nav */
-}
 
 #hero {
     background-image: url('images/coding1.jpeg');
@@ -126,7 +127,7 @@ section {
     margin: auto;
 }
 
-#contact-form input, 
+#contact-form input,
 #contact-form textarea
  {
     margin: 0.5rem 0;
@@ -135,7 +136,7 @@ section {
     border-radius: 5px;
 }
 
-#contact-form button 
+#contact-form button
 {
     background: #428af5;
     color: #fff;
