@@ -171,3 +171,16 @@ footer {
 .education-item p {
     color: #666;
 }
+.btn2 {
+    background:  #fff;
+                         color: #fff;
+                         padding: 0.75rem 2rem;
+                         text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: block;              /* Makes it a block element */
+    margin: 1rem auto 0 auto;    /* Top margin, auto left & right for centering, 0 bottom */
+    width: fit-content;          /* Button width fits content */
+}
+
+#ff5733
